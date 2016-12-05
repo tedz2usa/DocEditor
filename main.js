@@ -22,5 +22,13 @@ function drawButton() {
 }
 
 function drawBox() {
+  ctx.lineWidth = 1;
+  ctx.strokeRect(20.5, 20.5, 50, 50);
 
+  ctx.beginPath();
+  ctx.moveTo(80.5, 80);
+  ctx.lineTo(80.5, 100);
+  ctx.stroke();
+
+  ctx.fillRect(90, 90, 50, 50);
 }
